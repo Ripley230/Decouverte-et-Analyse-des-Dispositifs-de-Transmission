@@ -1,0 +1,40 @@
+Découverte et Analyse des Dispositifs de Transmission (Wi-Fi)
+
+1. Contexte et objectif
+Ce projet a pour but de découvrir les dispositifs de transmission filaires et sans fil, en particulier les réseaux Wi-Fi, à travers des manipulations pratiques et des analyses de mesures réelles. L’objectif est de comprendre le fonctionnement des réseaux locaux, de maîtriser les techniques de câblage, d’analyser la couverture et la qualité du signal Wi-Fi, et de s’initier à la simulation de réseaux à l’aide de Packet Tracer.
+
+2. Câblage et connectique réseau
+Réalisation de connecteurs RJ45 mâles : dénudage, alignement des fils selon la norme T-568B, insertion et sertissage pour garantir la fiabilité des connexions.
+    Montage de prises RJ45 noyau : dénudage, gestion de la masse, insertion des fils dans la prise selon la norme, fermeture et vérification.
+    Tests de câbles : utilisation de testeurs pour contrôler la continuité et la conformité des connexions sur le panneau de brassage et les liaisons vers les équipements.
+
+3. Analyse et mesures sur le PoE (Power over Ethernet)
+    Présentation du PoE : technologie permettant d’alimenter des équipements réseau (points d’accès, caméras IP…) via le câble Ethernet.
+    Normes utilisées : IEEE 802.3af, 802.3at, 802.3bt (jusqu’à 90W).
+    Mesures sur switch Cisco : vérification de la puissance délivrée, conformité aux normes, capacité d’alimentation de plusieurs appareils simultanément.
+
+4. Mesures de puissance et analyse de couverture Wi-Fi
+    Mesures sur réseaux 802.11g et 802.11a : relevés de puissance du signal (en dBm) à différentes distances et à travers des obstacles (murs, plafonds, matériaux métalliques).
+    Analyse de l’impact de la distance et des obstacles : observation de la perte de signal, comparaison entre les bandes 2,4 GHz (meilleure portée, meilleure pénétration) et 5 GHz (débit plus élevé, portée réduite).
+    Heatmaps de couverture : réalisation de cartes thermiques pour visualiser la qualité du signal dans différentes salles et étages, identification des zones bien ou mal couvertes.
+
+5. Débits descendants et performance
+    Tests de débit : mesure des débits descendants sur différents réseaux et à différentes distances.
+    Comparaison des normes : 802.11a performant à courte distance, 802.11g plus stable à longue distance et à travers les obstacles.
+
+6. Simulation et configuration réseau sous Packet Tracer
+    Simulation d’un réseau Wi-Fi : création d’une infrastructure complète avec serveurs DNS, Web, DHCP, points d’accès et clients.
+    Vérification de la connectivité : attribution d’adresses IP dynamiques, résolution DNS, accès au serveur web par nom de domaine, tests de connexion sur différents réseaux Wi-Fi.
+    Analyse de la configuration : gestion des passerelles, des routes et des différents réseaux pour assurer la communication entre tous les équipements.
+
+7. Synthèse et recommandations
+    Importance de la planification : nécessité d’ajuster la puissance des points d’accès et leur position pour optimiser la couverture sans débordement inutile.
+    Gestion des interférences et des canaux : optimisation de la gestion des canaux pour éviter les chevauchements et garantir une bonne qualité de service.
+    Propositions d’amélioration : ajout ou repositionnement de points d’accès dans les zones mal desservies, ajustement de la puissance d’émission.
+
+8. Compétences mobilisées
+    Maîtrise des techniques de câblage et de la connectique réseau.
+    Réalisation de tests et de mesures sur les réseaux filaires et sans fil.
+    Analyse de la couverture Wi-Fi et des performances selon les normes et l’environnement.
+    Utilisation d’outils de simulation réseau (Packet Tracer).
+    Rédaction de rapports techniques et synthèse des résultats.
